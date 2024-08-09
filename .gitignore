@@ -1,0 +1,12 @@
+# Ignore all files in the secrets directory
+*secret*/
+
+# Ignore environment variable files
+.env
+
+# Ignore private key files
+*.pem
+*.key
+
+# Ignore any other sensitive files
+*secret*.*
